@@ -252,7 +252,7 @@ module.exports = function(args){
                 ix2 = 0
             }
         }
-		var library = file.relative.substring(ix2,ix)
+		var library = file.relative.substring(0,ix)
         if(options.verbose){
             gutil.log('Using library: ' + library)	
         }
